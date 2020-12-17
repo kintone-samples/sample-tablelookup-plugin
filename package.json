@@ -1,12 +1,12 @@
 {
-  "name": "table_duplication_plugin",
+  "name": "tablelookup-plugin",
   "version": "0.1.0",
   "scripts": {
     "lint": "eslint plugin/js",
     "fix": "eslint --fix plugin/js",
     "build": "webpack --mode production --config webpack.config.js",
     "dev": "webpack --mode development --config webpack.config.js",
-    "package": "kintone-plugin-packer ./plugin/ --ppk ./build/private.ppk --out ./build/table-duplication-plugin.zip"
+    "package": "kintone-plugin-packer ./plugin/ --ppk ./build/private.ppk --out ./build/tablelookup-plugin.zip"
   },
   "browserslist": [
     ">0.2%",
